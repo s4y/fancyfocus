@@ -1,0 +1,14 @@
+.focusring {
+	position: absolute;
+	pointer-events: none;
+	box-shadow: 0 0 2px 2px rgb(106, 166, 227), inset 0 0 2px 0 rgb(106, 166, 227);
+	transition: 0.1s ease-out;
+}
+
+.focusring.hiding {
+	opacity: 0;
+}
+
+*:focus {
+	outline: none;
+}
