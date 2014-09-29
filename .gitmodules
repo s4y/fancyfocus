@@ -1,0 +1,4 @@
+[submodule "fancyfocus"]
+	path = fancyfocus
+	url = git@github.com:Sidnicious/fancyfocus.git
+	branch = master
